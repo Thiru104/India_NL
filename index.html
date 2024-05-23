@@ -1,0 +1,906 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+	<!--[if gte mso 9]>
+	<xml>
+		<o:OfficeDocumentSettings>
+		<o:AllowPNG/>
+		<o:PixelsPerInch>96</o:PixelsPerInch>
+		</o:OfficeDocumentSettings>
+	</xml>
+	<![endif]-->
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="format-detection" content="date=no" />
+	<meta name="format-detection" content="address=no" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="x-apple-disable-message-reformatting" />
+    <!--[if !mso]><!-->
+   	<link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--<![endif]-->
+	<title>Redseer</title>
+	
+
+	<style type="text/css" media="screen">
+		/* Linked Styles */
+		body { padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none }
+		a { color:#4516c7; text-decoration:none }
+		p { padding:0 !important; margin:0 !important } 
+		img { -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+		.mcnPreviewText { display: none !important; }
+		.li::marker{
+			color: red !important;
+		}
+		.text-inside {
+			font-size: 18px;
+			line-height: 20px;
+			text-align: right;
+			color: white;
+			padding: 10px;
+			background-color: rgba(0, 0, 0, 0.5); 
+			max-width: 100%; 
+			margin-top: 370px; 
+			margin-left: auto; 
+			margin-right: auto;
+		}
+
+		.slash{
+			position: relative;
+		}
+
+		.slash::after{
+			content: '';
+			height: 50%;
+			width: 1px;
+			position: absolute;
+			right: 30px;
+			top: 50px;
+			background-color: #000000;
+		}
+
+        .con-button{
+            background-color: white;
+            padding: 5px 15px;
+            border: 1px solid black;
+            border-radius: 15px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+        }
+
+		li::marker {
+			color: black;
+		}
+
+        .readbut{
+            padding-top: 20px;
+        }
+
+        .read-button{
+            background-color: white;
+            padding: 5px 15px;
+            border: 1px solid rgba(0, 0, 0, 0.671);
+            border-radius: 15px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+            color: rgb(38, 32, 212);
+            font-size: 14px;
+        }
+
+        .social{
+			width: 30px;
+            padding: 10px;
+            border-radius: 25px;
+            background-color: rgb(91, 79, 79);
+        }
+
+		.content{
+			padding-top: 30px;
+		}
+
+		.desk-nav-bar .text-nav {
+			padding: 30px 25px;
+			color: #000000;
+			font-family: 'Poppins', Arial, sans-serif;
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+			font-weight: 200;
+		}
+
+		.mobile-nav-bar .text-nav {
+			padding: 20px 15px;
+			color: #000000;
+			font-family: 'Poppins', Arial, sans-serif;
+			font-size: 12px;
+			line-height: 21px;
+			text-align: center;
+			font-weight: 200;
+			
+		}
+
+		.link-2 {
+			color: #000000;
+			text-decoration: none;
+			border-bottom: 2px solid red;
+		}
+
+		
+		@media only screen and (min-width: 481px) {
+			.mobile-header{display: none;}
+			.mobile-cover{display: none;}
+		}
+
+		/* Mobile styles */
+		@media only screen and (max-width: 480px) {
+			.mobile-shell { width: 100% !important; min-width: 100% !important; }
+			.desk-header{display:none;}
+			.desk-cover{display:none;}
+			.m-center { text-align: center !important; }
+			.center { margin: 0 auto !important; }
+			.content{
+			padding-top:0px !important;
+		}
+			.td { width: 100% !important; min-width: 100% !important; }
+
+			.m-br-3 { height: 3px !important; }
+			.m-br-4 { height: 4px !important; background: #f4f4f4 !important; }
+			.m-br-15 { height: 15px !important; }
+			.m-br-25 { height: 25px !important; }
+
+			.m-td,
+			.m-hide { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+
+			.m-block { display: block !important; }
+
+			.fluid-img img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+
+			.column-top,
+			.column { float: left !important; width: 100% !important; display: block !important; }
+
+			.content-spacing { width: 15px !important; }
+
+			.m-bg { display: block !important; width: 100% !important; height: auto !important; background-position: center center !important; }
+
+			.h-auto { height: auto !important; }
+
+			.plr-15 { padding-left: 15px !important; padding-right: 15px !important; }
+
+			.w-2 { width: 2% !important; }
+			.w-49 { width: 49% !important; }
+
+			.pb-4 { padding-bottom: 4px !important; }
+			.pb-15 { padding-bottom: 15px !important; }
+
+			.pt-0 { padding-top: 0 !important; }
+
+			.h1,
+			.h1-white { font-size: 36px !important; line-height: 46px !important; }
+			.h2 { font-size: 26px !important; line-height: 36px !important; }
+
+			.text-btn-large,
+			.text-btn-large-white { padding: 15px 25px !important; }
+			.text-btn,
+			.text-btn-1,
+			.text-btn-1-white { padding: 12px 15px !important; }
+		}
+	</style>
+</head>
+<body class="body" style="padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none;">
+
+	<!--[if mso]>
+	<style type="text/css">
+		/* Linked Styles */
+		body { padding:0 !important; margin:0 !important; display:block !important; min-width:100% !important; width:100% !important; background:#ffffff; -webkit-text-size-adjust:none }
+		a { color:#4516c7; text-decoration:none }
+		p { padding:0 !important; margin:0 !important } 
+		img { -ms-interpolation-mode: bicubic; /* Allow smoother rendering of resized image in Internet Explorer */ }
+		.mcnPreviewText { display: none !important; }
+		.li::marker{
+			color: red
+		}
+		.text-inside {
+			font-size: 18px;
+			line-height: 20px;
+			text-align: right;
+			color: white;
+			padding: 10px;
+			background-color: rgba(0, 0, 0, 0.5); 
+			max-width: 100%; 
+			margin-top: 370px; 
+			margin-left: auto; 
+			margin-right: auto;
+		}
+
+		.slash{
+			position: relative;
+		}
+
+		.slash::after{
+			content: '';
+			height: 50%;
+			width: 1px;
+			position: absolute;
+			right: 30px;
+			top: 50px;
+			background-color: #000000;
+		}
+
+        .con-button{
+            background-color: white;
+            padding: 5px 15px;
+            border: 1px solid black;
+            border-radius: 15px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+        }
+
+		li::marker {
+			color: black;
+		}
+
+        .readbut{
+            padding-top: 20px;
+        }
+
+        .read-button{
+            background-color: white;
+            padding: 5px 15px;
+            border: 1px solid rgba(0, 0, 0, 0.671);
+            border-radius: 15px;
+            box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);
+            color: rgb(38, 32, 212);
+            font-size: 14px;
+        }
+
+        .social{
+			width: 30px;
+            padding: 10px;
+            border-radius: 25px;
+            background-color: rgb(91, 79, 79);
+        }
+
+		.content{
+			padding-top: 30px;
+		}
+
+		.desk-nav-bar .text-nav {
+			padding: 30px 25px;
+			color: #000000;
+			font-family: 'Poppins', Arial, sans-serif;
+			font-size: 18px;
+			line-height: 21px;
+			text-align: center;
+			font-weight: 200;
+		}
+
+		.mobile-nav-bar .text-nav {
+			padding: 20px 15px;
+			color: #000000;
+			font-family: 'Poppins', Arial, sans-serif;
+			font-size: 12px;
+			line-height: 21px;
+			text-align: center;
+			font-weight: 200;
+			
+		}
+
+		.link-2 {
+			color: #000000;
+			text-decoration: none;
+			border-bottom: 2px solid red;
+		}
+
+		
+		@media only screen and (min-width: 481px) {
+			.mobile-header{display: none;}
+			.mobile-cover{display: none;}
+		}
+
+		/* Mobile styles */
+		@media only screen and (max-width: 480px) {
+			.mobile-shell { width: 100% !important; min-width: 100% !important; }
+			.desk-header{display:none;}
+			.desk-cover{display:none;}
+			.m-center { text-align: center !important; }
+			.center { margin: 0 auto !important; }
+			.content{
+			padding-top:0px !important;
+		}
+			.td { width: 100% !important; min-width: 100% !important; }
+
+			.m-br-3 { height: 3px !important; }
+			.m-br-4 { height: 4px !important; background: #f4f4f4 !important; }
+			.m-br-15 { height: 15px !important; }
+			.m-br-25 { height: 25px !important; }
+
+			.m-td,
+			.m-hide { display: none !important; width: 0 !important; height: 0 !important; font-size: 0 !important; line-height: 0 !important; min-height: 0 !important; }
+
+			.m-block { display: block !important; }
+
+			.fluid-img img { width: 100% !important; max-width: 100% !important; height: auto !important; }
+
+			.column-top,
+			.column { float: left !important; width: 100% !important; display: block !important; }
+
+			.content-spacing { width: 15px !important; }
+
+			.m-bg { display: block !important; width: 100% !important; height: auto !important; background-position: center center !important; }
+
+			.h-auto { height: auto !important; }
+
+			.plr-15 { padding-left: 15px !important; padding-right: 15px !important; }
+
+			.w-2 { width: 2% !important; }
+			.w-49 { width: 49% !important; }
+
+			.pb-4 { padding-bottom: 4px !important; }
+			.pb-15 { padding-bottom: 15px !important; }
+
+			.pt-0 { padding-top: 0 !important; }
+
+			.h1,
+			.h1-white { font-size: 36px !important; line-height: 46px !important; }
+			.h2 { font-size: 26px !important; line-height: 36px !important; }
+
+			.text-btn-large,
+			.text-btn-large-white { padding: 15px 25px !important; }
+			.text-btn,
+			.text-btn-1,
+			.text-btn-1-white { padding: 12px 15px !important; }
+		}
+	</style>
+	<![endif]-->
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+		<tr>
+			<td align="center" valign="top">
+
+				<!-- Header -->
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff">
+					<tr>
+						<td align="center" valign="top" class="desk-header">
+							<table width="750" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="img-center" style="padding: 30px 0px 0px 0px; text-align: center;"><a href="https://redseer.com/" target="_blank">Click to View in The Browser</a></td>
+								</tr>
+							</table>
+						</td>
+						<td align="center" valign="top" class="mobile-header">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="img-center" style="padding: 30px 0px 0px 0px; text-align:center;">
+										<a href="https://redseer.com/" target="_blank">Click to View in The Browser</a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="top" class="desk-header">
+							<table width="750" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="img-center" style="padding: 30px 0px 20px 0px; font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/" target="_blank"><img src="img/logo.png" width="350" height="120" border="0" alt="" /></a></td>
+								</tr>
+							</table>
+						</td>
+						<td align="center" valign="top" class="mobile-header">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="img-center" style="padding: 20px 0px 0px 0px; font-size:0pt; line-height:0pt; text-align:center;">
+										<a href="https://redseer.com/" target="_blank"><img src="img/logo.png" width="250" height="100" border="0" alt=""/></a>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+
+					<tr>
+						<td align="center" valign="top" class="desk-cover">
+							<table width="750" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td style="padding: 0px 0px;">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="plr-15" style="padding: 0;">
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr> 
+															<td class="column" style="font-size:0pt; line-height:0pt; padding: 0 20px; margin:0; font-weight:normal; background-color: #9e9595a9;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td align="left">
+																			<table border="0" cellspacing="0" cellpadding="0">
+																				<tr>
+																					<td class="h4 fw-semibold" style="padding: 20px 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:28px; line-height:30px; text-align:left; font-weight:600;">On the <br> bulletin board</td>
+																				</tr>
+																			</table>
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="text-1 to-left" style="color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:20px; text-align:left;">
+																			<ul>
+																				<li>COVER STORY</li>
+																				<span style="color:#241ba8; font-size:15px; line-height: 18px;"><a target="_blank" style="cursor: default;">Behind Malaysia and Indonesia’s ‘$100 Rule’</a><br> <br></span>
+																				<li>LOCAL TREND</li>
+																				<span style="color:#241ba8; font-size:15px; line-height: 18px;"><a target="_blank" href="https://redseer.com/newsletters/indonesia-policy-updates/" title="Opening the digital lending faucet and breaking a legislative chokepoint for new energy in Indonesia">Opening the digital lending faucet and breaking a legislative chokepoint for new energy in Indonesia</a> <br> <br></span>
+																				<li>Global TREND</li>
+																				<span style="color:#241ba8; font-size:15px; line-height: 18px;"><a target="_blank" href="https://redseer.com/newsletters/astro-tech-cosmic-trends-digital-era/" title="Astro-Tech: Navigating Cosmic Trends in the Digital Era ">Astro-Tech: Navigating Cosmic Trends in the Digital Era </a> <br> <br> </span>
+																			</ul>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+															<td class="column" style="background-image: url(img/profile.jpg); -webkit-background-size: cover; background-size: cover;" bgcolor="#4a4a4a" valign="top" height="380px" class="m-bg" width="45%">
+																<!-- <div class="text-inside">
+																	Kushal Bhatnagar <br> Associate Partner
+																</div> -->
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+						<td align="center" valign="top" class="mobile-cover">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td class="plr-15">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr> 
+												<td class="column" style="font-size:0pt; line-height:0pt; margin:0; font-weight:normal; background-color: #9e9595a9;">
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td align="left">
+																<table border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="h4 fw-semibold" style="padding: 20px 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:28px; line-height:30px; text-align:left; font-weight:600;">On the <br> bulletin board</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class="text-1 to-left" style="color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:18px; text-align:left;">
+																<ul>
+																	<li>COVER STORY</li>
+																	<span style="color:#241ba8; font-size:15px; line-height: 16px;"><a target="_blank" style="cursor:default;">Behind Malaysia and Indonesia’s ‘$100 Rule’</a>  <br> <br></span>
+																	<li>LOCAL TREND</li>
+																	<span style="color:#241ba8; font-size:15px; line-height: 16px;"><a target="_blank" href="https://redseer.com/newsletters/indonesia-policy-updates/" title="Opening the digital lending faucet and breaking a legislative chokepoint for new energy in Indonesia">Opening the digital lending faucet and breaking a legislative chokepoint for new energy in Indonesia</a> <br> <br></span>
+																	<li>GLOBAL TREND</li>
+																	<span style="color:#241ba8; font-size:15px; line-height: 16px;"><a target="_blank" href="https://redseer.com/newsletters/astro-tech-cosmic-trends-digital-era/" title="Astro-Tech: Navigating Cosmic Trends in the Digital Era">Astro-Tech: Navigating Cosmic Trends in the Digital Era </a></span>
+																</ul>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td class="m-bg" style="background-image: url(img/profile.jpg); -webkit-background-size: cover; background-size: cover; padding: 330px 0 0 0" width="100%" bgcolor="#4a4a4a" valign="top">
+													<!-- <div class="text-inside">
+														Kushal Bhatnagar <br> Associate Partner
+													</div> -->
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+					
+					<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff" class="desk-cover">
+
+						<tr>
+							<td>
+								<!-- Section - Callout -->
+								<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff">
+									<tr>
+										<td align="center" valign="top">
+											<table width="750" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+												<tr>
+													<td style="padding: 30px 0px 0px 0px;">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td style="background-image: url(img/cover.jpg); box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); -webkit-background-size: cover; background-size: cover; background-position: center; -webkit-background-position: center; position: relative;" bgcolor="#4a4a4a" valign="top" height="450" class="m-bg">
+																</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>								
+								<!-- END Section - Callout -->
+							</td>
+						</tr>
+					</table>
+					<tr class="mobile-cover">
+						<td>
+							<!-- Section - Callout -->
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" style="padding:0 0 30px 0; ">
+								<tr>
+									<td align="center" valign="top">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+											<tr>
+												<td style="padding: 30px 15px 0px 17px;">
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td style="background-image: url(img/cover.jpg); -webkit-background-size: cover; background-size: cover;  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);" valign="top" height="180" width="100%">
+															</td>
+														</tr>
+														
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!-- END Section - Callout -->
+						</td>
+					</tr>
+					
+				</table>
+				<!-- END Header -->
+
+				<!-- Main -->
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" class="content">
+					<tr>
+						<td>
+							<!-- Section - Intro -->
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td valign="top">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="img" height="245" bgcolor="#fff" style="font-size:0pt; line-height:0pt; text-align:left;">&nbsp;</td>
+											</tr>
+										</table>
+									</td>
+									<td align="center" valign="top" width="780" class="mobile-shell">
+										<table width="780" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+											<tr>
+												<td>
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="plr-15" style="padding: 0 20px 20px 20px;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="text-1" style="padding-bottom: 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:22px; text-align:justify; ">
+																			Hi *|FNAME|*,<br><br>
+																			Headlines as of late have been dominated by China’s historic push to develop high-tech manufacturing. The Chinese government is bullish on electric vehicles (EV), semiconductors, and renewables—building nationwide capacity with aims of becoming a dominant global player.<br><br>
+																			However, according to a <a target="_blank" href="https://www-theedgesingapore-com.cdn.ampproject.org/c/s/www.theedgesingapore.com/amp/news/asean/asean-exporters-recovery-facing-growing-and-multi-faceted-competition-china-maybank">The Edge Singapore commentary,</a> China’s gargantuan capacity-building efforts could lead to overcapacity, while its strong export figures could be indicators of a sluggish domestic economy. <br><br>
+																			China’s strong export trends caused some countries with overlapping sectors to enact measures to protect local business. In the US, <a target="_blank" href="https://www.whitehouse.gov/briefing-room/statements-releases/2024/05/14/fact-sheet-president-biden-takes-action-to-protect-american-workers-and-businesses-from-chinas-unfair-trade-practices/">the Biden Administration has recently enacted a 100% tariff on EV imports from China.</a> In Southeast Asia, Indonesia and Malaysia have enacted restrictions and tariffs for low-value goods imported through ecommerce to maintain the competitiveness of their MSMEs—something we will touch upon later in this newsletter. <br><br>
+																			Faced with these policy trends and shifting regulatory landscapes, how could businesses optimize further opportunities in Southeast Asia? 
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="fw-medium" style="color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:24px; line-height:30px; text-align:left; font-weight:700;">
+																			<span style="color: red;">01.</span> Chinese ecommerce exports have nearly doubled the past several years— <span style="font-weight: 400;">but numbers suggest a slowing internal market, need for export</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="padding: 0 0px 20px 40px; font-size:0pt; line-height:0pt; text-align:left;"><img src="img/graph-1.jpg" width="700px" height="auto" border="0" alt="" /></td>
+														</tr>
+														<tr>
+															<td class="plr-15" style="padding: 0 20px 20px 20px;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="text-1" style="padding-bottom: 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:22px; text-align:justify; ">
+																			In an article <a target="_blank" href="https://www-theedgesingapore-com.cdn.ampproject.org/c/s/www.theedgesingapore.com/amp/news/asean/asean-exporters-recovery-facing-growing-and-multi-faceted-competition-china-maybank">titled Asean exporters' recovery facing growing and multi-faceted competition from China: Maybank,</a>  The Edge Singapore, quoting Maybank, states that China’s push for certain sectors such as EV, renewables, semiconductors, and pharmaceuticals could result in an overexpansion that could compromise the growth of the service sector—the leading generator of jobs—and in turn, private consumption.
+																			<br><br>
+																			Lower domestic private consumption may push manufacturers to increasingly rely on exporting. Manufacturers in other sectors such as retail fashion and appliances, having highly adopted cross-border ecommerce platforms, might have to seek larger share of growth in other regions such as Southeast Asia.<br><br>
+																			<span style="font-weight: bold;">The same article asserts that high-tech manufactured goods from China could also come into overlap with Southeast Asia’s industrial mix.</span> 61% of Vietnam’s industrial mix overlap with that of China, while Singapore has a 60% overlap due to their high-tech manufacturing output. China’s high-tech policies might potentially come in contest with Singapore’s semiconductor and pharmaceuticals production, respectively being ~41% and 5% of the country’s total manufacturing output. <br><br>
+																			The phenomenal growth of China’s EV exports, having grown ~178% CAGR between 2020 and 2023, could be seen as an example. 
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="fw-medium" style="color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:24px; line-height:30px; text-align:left; font-weight:700;">
+																			<span style="color: red;">02.</span> One key area of overlap in Southeast Asia are in low-value goods such as fashion, home appliances that are exported by China through e-commerce – clashing with Indonesia and Malaysia’s MSME push</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="padding: 0 0px 20px 40px; font-size:0pt; line-height:0pt; text-align:left;"><img src="img/graph-2.jpg" width="700px" height="auto" border="0" alt="" /></td>
+														</tr>
+														<tr>
+															<td class="plr-15" style="padding: 0 20px 20px 20px;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="text-1" style="padding-bottom: 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:22px; text-align:justify; ">
+																			Similarly, cross-border ecommerce sellers from China—selling goods from fashion to beauty products—are overlapping with Southeast Asia’s MSMEs. This comes in a time where countries like Malaysia and Indonesia are building the capacity and competitiveness of their MSMEs.
+																			<br><br>
+																			In Indonesia, MSME growth and development has been a major component in economic policy. Starting off from government-secured, low-interest loans (Kredit Usaha Rakyat), MSMEs are further supported with digitalization support, workshops, matchmaking, and generous tax breaks. Similarly, Malaysia has been growing MSME’s capabilities with government grants among other measures. <br><br>
+																			In Malaysia and Indonesia, certain measures have been enacted to increase the competitiveness of local MSMEs.
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="fw-medium" style="color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:24px; line-height:30px; text-align:left; font-weight:700;">
+																			<span style="color: red;">03.</span> Indonesia and Malaysia have enacted policies to maintain competitiveness of MSMEs and control cross-border ecommerce imports</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="padding: 0 0px 20px 40px; font-size:0pt; line-height:0pt; text-align:left;"><img src="img/graph-3.jpg" width="700px" height="auto" border="0" alt="" /></td>
+														</tr>
+														<tr>
+															<td class="plr-15" style="padding: 0 20px 20px 20px;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="text-1" style="padding-bottom: 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:22px; text-align:justify; ">
+																			The intensifying adoption of ecommerce by small businesses in Indonesia and Malaysia puts them in direct competition with importers who sell on ecommerce platforms—and as is the case with China-based sellers, with extremely competitive prices.
+																			<br><br>
+																			In October last year (followed up by a December update), the Trade Ministry of Indonesia issued Regulation No. 31/2023, which suspended social commerce plays like TikTok Shop, <b>but also enacted a USD 100 minimum item value for ecommerce imports.</b> <br><br>
+																			Similarly, earlier this year, <b>Malaysia has followed suit in imposing a 10% tariff on imported goods acquired online under USD 105.</b> <br><br>
+																			Indonesia’s USD 100 minimum item value for ecommerce imports and Malaysia’s 10% special tax for imported goods acquired online under USD 105 were the first policies of its kind in Southeast Asia. 
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="fw-medium" style="color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:24px; line-height:30px; text-align:left; font-weight:700;">
+																			<span style="color: red;">04.</span> The ‘$100 Rule:’<span style="font-weight: 400;"> in response to MSME export woes, the Indonesian government implemented policy that limits small-value ecommerce imports to support MSMEs</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="padding: 0 0px 20px 40px; font-size:0pt; line-height:0pt; text-align:left;"><img src="img/graph-4.jpg" width="700px" height="auto" border="0" alt="" /></td>
+														</tr>
+														<tr>
+															<td class="plr-15" style="padding: 0 20px 20px 20px;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="text-1" style="padding-bottom: 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:22px; text-align:justify; ">
+																			Malaysia’s new tariffs are in no way as extensive as Indonesia’s ecommerce regulations—which actively promote aggregation, registration, and foreign investment. <a target="_blank" href="https://www.straitstimes.com/asia/se-asia/mixed-reactions-as-malaysia-s-online-shoppers-pay-new-sales-tax-on-overseas-goods-bought-online">In Malaysia, reception is mixed;</a>  but the new policy does provide an additional incentive for Malaysians to ‘buy local’. On the other hand, SME leaders in Malaysia have applauded the new measure, seeing it as levelling the playing ground for local companies and SMEs.
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="fw-medium" style="color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:24px; line-height:30px; text-align:left; font-weight:700;">
+																			<span style="color: red;">05.</span> Indonesia and Malaysia take on ecommerce imports—<span style="font-weight: 400;">but seeing the same external challenges, will other countries follow?</span>
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="padding: 0 0px 20px 40px; font-size:0pt; line-height:0pt; text-align:left;"><img src="img/graph-5.jpg" width="700px" height="auto" border="0" alt="" /></td>
+														</tr>
+														<tr>
+															<td class="plr-15" style="padding: 0 20px 20px 20px;">
+																<table width="100%" border="0" cellspacing="0" cellpadding="0">
+																	<tr>
+																		<td class="text-1" style="padding-bottom: 20px; color:#000000; font-family:'Poppins', Arial,sans-serif; font-size:15px; line-height:22px; text-align:justify; ">
+																			After analyzing the regulatory stances of other Southeast Asian countries on cross-border, we can deduce several directional conclusions:
+																			<br>
+																			<ul>
+																				<li class="li">While low value goods are faced with restrictions, importers would opt to ‘set up shop’ in-country both through direct investment, franchising, or distribution rights arrangements, not too disimilar from few China-based F&B and Beauty players finding success in Indonesia.</li>
+																				<li class="li">Collaborative competition such as aggregation for high demand and popular imported products with local partners.</li>
+																				<li class="li">Encourages consumers/businesses to buy in bulk over piecemeal items.</li>
+																			</ul> <br>
+																			Stay tuned for more Southeast Asia policy updates—subscribe to our newsletter today. <a href="mailto:roshanb@redseerconsulting.com">roshanb@redseerconsulting.com</a> <br><br> Best,   <br> Roshan 
+																		</td>
+																	</tr>
+																</table>
+															</td>
+														</tr>
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+									<td valign="top">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="img" height="245" bgcolor="#fff" style="font-size:0pt; line-height:0pt; text-align:left;">&nbsp;</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!-- END Section - Intro -->
+						</td>
+					</tr>
+					
+				</table>
+				<!-- END Main -->
+
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff">
+
+					<tr class="desk-cover">
+						<td>
+							<!-- Section - Callout -->
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff" >
+								<tr>
+									<td align="center" valign="top">
+										<table width="750" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+                                            <tr>
+												<td style="padding: 0px 0px 40px 0px;">
+													<a target="_blank" href="https://redseer.com/newsletters/indonesia-policy-updates/">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td style="background-image: url(img/local-trend.jpg); box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); -webkit-background-size: cover; background-size: cover; position: relative;" bgcolor="#4a4a4a" valign="top" height="500" class="m-bg">
+																	<div>
+
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</a>
+												</td>
+											</tr>
+
+                                            <tr>
+												<td style="padding: 0px 0px 0px 0px;">
+													<a target="_blank" href="https://redseer.com/newsletters/unveiling-indias-q-commerce-revolution/">
+														<table width="100%" border="0" cellspacing="0" cellpadding="0">
+															<tr>
+																<td style="background-image: url(img/global-trend.jpg); box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); -webkit-background-size: cover; background-size: cover; position: relative;" bgcolor="#4a4a4a" valign="top" height="520" class="m-bg">
+																	<div>
+
+																	</div>
+																</td>
+															</tr>
+														</table>
+													</a>
+												</td>
+											</tr>
+                                            
+                                            <tr>
+                                                <td class="fluid-img" style="padding-top: 40px; font-size:0pt; line-height:0pt; text-align:left;"><img src="img/sector-head.jpg" width="750" height="auto" border="0" alt="" /></td>
+                                            </tr>
+											<tr>
+                                                <td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/whos-making-indonesia-look-pretty/" target="_blank"><img src="img/sector-1.jpg" width="750" height="auto" border="0" alt="" /></a></td>
+                                            </tr>
+											<tr>
+                                                <td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/not-so-modest-opportunity-in-modest-fashion/" target="_blank"><img src="img/sector-2.jpg" width="750" height="auto" border="0" alt="" /></a></td>
+                                            </tr>
+											<tr>
+                                                <td class="fluid-img" style="padding-bottom: 20px; font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/plug-and-play-charging-up-part-5/" target="_blank"><img src="img/sector-3.jpg" width="750" height="auto" border="0" alt="" /></a></td>
+                                            </tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!-- END Section - Callout -->
+						</td>
+					</tr>
+
+
+                    <tr class="mobile-cover">
+						<td>
+							<!-- Section - Callout -->
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tr>
+									<td align="center" valign="top">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+                                            <tr>
+												<td style="padding: 0px 15px 20px 17px;">
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/indonesia-policy-updates/" target="_blank"><img src="img/local-trend.jpg" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);" height="250" width="100%" border="0" alt="" /></a></td>
+															</td>
+														</tr>
+														
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding: 0px 15px 20px 17px;">
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/unveiling-indias-q-commerce-revolution/" target="_blank"><img src="img/global-trend.jpg" style="box-shadow: 0 0 3px rgba(0, 0, 0, 0.6);" height="250" width="100%" border="0" alt="" /></a></td>
+															</td>
+														</tr>
+														
+													</table>
+												</td>
+											</tr>
+											<tr>
+												<td style="padding: 0px 15px 20px 17px;" class="mobile-cover">
+													<table width="100%" border="0" cellspacing="0" cellpadding="0">
+														<tr>
+															<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><img src="img/sector-head.jpg" height="125" width="100%" border="0" alt="" /></td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/whos-making-indonesia-look-pretty/" target="_blank"><img src="img/sector-1.jpg" height="125" width="100%" border="0" alt="" /></a></td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/not-so-modest-opportunity-in-modest-fashion/" target="_blank"><img src="img/sector-2.jpg" height="125" width="100%" border="0" alt="" /></a></td>
+														</tr>
+														<tr>
+															<td class="fluid-img" style="font-size:0pt; line-height:0pt; text-align:left;"><a href="https://redseer.com/newsletters/plug-and-play-charging-up-part-5/" target="_blank"><img src="img/sector-3.jpg" height="125" width="100%" border="0" alt="" /></a></td>
+														</tr>
+														
+													</table>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+							<!-- END Section - Callout -->
+						</td>
+					</tr>
+				</table>
+				
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff">
+					<tr>
+						<td align="center" valign="top" class="desk-header">
+							<table width="650" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="img-center" style="padding: 50px 50px 50px 0px; font-size:0pt; line-height:0pt; "><a href="https://www.linkedin.com/company/75106507/admin/feed/posts/" target="_blank"><img src="img/Linkedin.png" width="280" height="70" border="0" alt="" /></a></td>
+									<td class="slash" style="align-items: center;"></td>
+									<td class="img-center" style="font-family:'Poppins', Arial,sans-serif; padding: 50px 0px 50px 20px; font-size:16px; line-height:20px; text-align: left;">Ready for growth?<br>
+									<span style="color:#f40101; font-family:'Poppins', Arial,sans-serif; font-size:18px; line-height:30px; text-align:left; font-weight: bold; ">Let's talk!</span>
+									<a href="mailto:roshanb@redseerconsulting.com"><br> <br> roshanb@redseerconsulting.com</a></td>
+								</tr>
+							</table>
+						</td>
+						<td align="center" valign="top" class="mobile-header">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="img-center" style="padding: 20px 0px 0px 0px; font-size:0pt; line-height:0pt; text-align:center;">
+										<a href="https://www.linkedin.com/company/75106507/admin/feed/posts/" target="_blank"><img src="img/Linkedin.png" width="290" height="60" border="0" alt="" /></a>
+									</td>
+								</tr>
+								<tr>
+									<td class="img-center" style="padding: 20px 0px 20px 0px; font-size:0pt; line-height:0pt; text-align:center;">
+										<hr style="width: 45%;">
+									</td>
+								</tr>
+								<tr>
+									<td class="plr-15" style="padding: 0 20px 0px 20px;">
+										<table width="100%" border="0" cellspacing="0" cellpadding="0">
+											<tr>
+												<td class="text-1" style="padding-bottom: 5px; color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:16px; line-height:22px; text-align:left;">
+													Ready for growth?
+												</td>
+											</tr>
+											<tr>
+												<td class="text-1" style="padding-bottom: 20px; color:#f40101; font-family:'Poppins', Arial,sans-serif; font-size:22px; line-height:24px; text-align:left; font-weight: bold;">
+													Let's talk!
+												</td>
+											</tr>
+											<tr>
+												<td class="text-1" style="padding-bottom: 20px; color:#4a4a4a; font-family:'Poppins', Arial,sans-serif; font-size:16px; line-height:22px; text-align:left; font-weight: bold;">
+													<a href="mailto:roshanb@redseerconsulting.com">roshanb@redseerconsulting.com</a>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+
+				<!-- Bottom -->
+				<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#fff">
+					<tr>
+						<td align="center" valign="top">
+							<table width="850" border="0" cellspacing="0" cellpadding="0" class="mobile-shell">
+								<tr>
+									<td class="text-bottom" style="padding: 5px 5px; background-color:#f60202; font-family:'Poppins', Arial,sans-serif; font-size:11px; line-height:15px; text-align:center;">
+										&nbsp;
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+				<!-- END Bottom -->
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
